@@ -94,3 +94,5 @@ deve criar uma branch com seu primeiro nome e sobrenome, responder a atividade n
 
 
 https://www.open.edu/openlearn/pluginfile.php/4488604/mod_fullscreenresource/content/1/password_check/index.html
+
+https://coveryourtracks.eff.org/
