@@ -198,3 +198,5 @@ Função de cada comando resumida no fluxo:
 - Posso adicionar um arquivo `.gitignore` sugerido (por exemplo para projetos web).
 - Posso criar um exemplo de fluxo com comandos para Windows/macOS/Linux.
 - Posso abrir um Pull Request com estas mudanças nesta mesma branch ou em outra branch, se preferir.
+
+- O aluno deve primeiro utilizar o comando git init, que cria um repositório Git local na pasta do projeto. Em seguida, deve usar git status para verificar o estado dos arquivos e identificar possíveis alterações. Depois, deve criar e acessar a branch de trabalho utilizando git switch -c aluno-joao, permitindo desenvolver suas alterações sem modificar diretamente a branch principal. Após realizar o trabalho, deve usar git add README.md para adicionar o arquivo à área de preparação, ou git add . para adicionar todas as alterações. Em seguida, deve utilizar git commit -m "Atividade Git - João" para registrar as alterações localmente com uma mensagem explicativa. Por fim, deve usar git push -u origin aluno-joao para enviar os commits da branch aluno-joao para o repositório remoto no GitHub.
