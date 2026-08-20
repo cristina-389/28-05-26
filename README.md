@@ -1,4 +1,8 @@
-Aula de hoje 20/08/2026
+Aula de hoje 20/08/2026 
+
+
+
+NOTA --- 10
 
 Versionamento 
 
@@ -93,4 +97,12 @@ Explique com suas palavras:
 git push é para enviar suas alterações do computador para o repositório remoto.
 git pull é para baixar as alterações que outras pessoas fizeram no repositório remoto para o seu computador.
 Resumindo: push = sobe, pull = desce.
+
+
+
+Pergunta-problema
+
+Um aluno está desenvolvendo um site em equipe. Ele criou uma pasta para o projeto, mas ainda não iniciou o controle de versão. Depois, precisa verificar os arquivos alterados, criar uma branch chamada nova-pagina para trabalhar sem modificar a main, buscar as atualizações feitas pelos colegas e, ao terminar, enviar seu trabalho para o GitHub.
+
+Explique, na ordem correta, quais comandos Git ele deve utilizar e qual é a função de cada comando nesse processo.
 
