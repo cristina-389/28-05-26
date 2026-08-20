@@ -1,4 +1,5 @@
 Aula de hoje 20/08/2026
+NOTA-10
 
 Versionamento 
 
@@ -89,3 +90,9 @@ Explique com suas palavras:
 O comando git pull é utilizado para buscar e trazer as alterações do repositório remoto para o computador. Já o comando git push é utilizado para enviar as alterações feitas no computador para o repositório remoto.
 ---
 
+
+Pergunta-problema
+
+Um aluno está desenvolvendo um site em equipe. Ele criou uma pasta para o projeto, mas ainda não iniciou o controle de versão. Depois, precisa verificar os arquivos alterados, criar uma branch chamada nova-pagina para trabalhar sem modificar a main, buscar as atualizações feitas pelos colegas e, ao terminar, enviar seu trabalho para o GitHub.
+
+Explique, na ordem correta, quais comandos Git ele deve utilizar e qual é a função de cada comando nesse processo.
