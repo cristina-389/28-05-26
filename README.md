@@ -129,10 +129,10 @@ Obs: poderia ser `git add nome-do-arquivo` também.
 *6. `git commit -m "Criação da nova página"`*  
 *Função:* Salva as alterações na branch local com uma mensagem explicando o que foi feito.
 
-Utilizei uma IA fora do Git Hub.
-
 *7. `git push -u origin nova-pagina`*  
 *Função:* Envia a branch `nova-pagina` com todos os commits para o GitHub. O `-u origin` define essa branch como padrão para os próximos envios.
 
 *Resumo da ordem:*  
 `git init` → `git status` → `git pull` → `git switch -c nova-pagina` → `git add` → `git commit` → `git push`
+
+Utilizei uma Ia fora do GitHub
