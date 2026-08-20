@@ -89,3 +89,5 @@ Explique com suas palavras:
 
 ---
 
+deve criar uma branch com seu primeiro nome e sobrenome, responder a atividade no README.md e enviar as alterações para sua própria branch. Não é permitido fazer alterações diretamente na branch main.
+
