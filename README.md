@@ -4,73 +4,88 @@ Versionamento
 
 Professor Donald
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+git switch -c aluno-joao
 
-        header {
-            background-color: #24292e;
-            color: white;
-            padding: 15px;
-            text-align: center;
-        }
+git add README.md
+git commit -m "Atividade Git - João"
+git push -u origin aluno-joao
 
-        main {
-            padding: 20px;
-        }
+ # ATIVIDADE AVALIATIVA - GIT
 
-        .card {
-            background: white;
-            padding: 15px;
-            margin: 10px 0;
-            border-radius: 8px;
-            box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
-        }
+**Disciplina:** Versionamento de Código
+**Professor:** Donald
+**Aluno(a):** __________________________________
+**Turma:** _______________ **Data:** ****/****/____
 
-        button {
-            background-color: #2ea44f;
-            color: white;
-            border: none;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
+## Situação-problema
 
-        button:hover {
-            background-color: #22863a;
-        }
-    </style>
-</head>
-<body>
+Você começou a trabalhar em um projeto de desenvolvimento de um site. O projeto será controlado utilizando **Git**.
 
-<header>
-    <h1>Meu Primeiro Site 🚀</h1>
-    <p>Publicado no GitHub</p>
-</header>
+Responda às questões abaixo indicando o comando correto e explicando sua função.
 
-<main>
+### 1. Iniciando o projeto
 
-    <div class="card">
-        <h2>Sobre</h2>
-        <p>Este é um site criado para aprender Git e GitHub.</p>
-    </div>
+Você criou uma pasta para o projeto e deseja começar a utilizar o Git nela.
 
-    <div class="card">
-        <h2>Interação</h2>
-        <button onclick="mostrarMensagem()">Clique aqui</button>
-    </div>
+**Qual comando deve utilizar? O que ele faz?**
 
-</main>
+Resposta: ______________________________________________________
 
-<script>
-    function mostrarMensagem() {
-        alert("Funcionando com JavaScript 😄");
-    }
-</script>
+### 2. Verificando alterações
 
-</body>
-</html>
+Você modificou alguns arquivos e quer verificar quais foram alterados antes de continuar.
+
+**Qual comando deve utilizar? O que ele mostra?**
+
+Resposta: ______________________________________________________
+
+### 3. Criando uma nova área de trabalho
+
+Você precisa desenvolver uma nova funcionalidade sem alterar diretamente a versão principal do projeto.
+
+**Qual comando relacionado a branch pode ser utilizado? Para que serve uma branch?**
+
+Resposta: ______________________________________________________
+
+### 4. Enviando alterações
+
+Você terminou seu trabalho local e precisa enviar as alterações para o repositório remoto.
+
+**Qual comando deve utilizar? Explique sua função.**
+
+Resposta: ______________________________________________________
+
+### 5. Recebendo alterações
+
+Outro desenvolvedor atualizou o projeto no repositório remoto. Você precisa trazer essas alterações para seu computador.
+
+**Qual comando deve utilizar? Explique sua função.**
+
+Resposta: ______________________________________________________
+
+## Desafio final
+
+Complete o fluxo utilizando os comandos abaixo:
+
+**git init | git status | git branch | git pull | git push**
+
+a) Iniciar um repositório: ______________________
+
+b) Verificar o estado dos arquivos: ______________________
+
+c) Trabalhar com ramificações do projeto: ______________________
+
+d) Buscar e integrar alterações do repositório remoto: ______________________
+
+e) Enviar alterações para o repositório remoto: ______________________
+
+## Para pensar
+
+Explique com suas palavras:
+
+**Qual é a diferença entre `git pull` e `git push`?**
+
+---
+
+---
+
