@@ -5,7 +5,7 @@
 **Aluno(a):** Cristina  
 **Turma:** 3DS  
 **Data:** 20/08/2026
-
+NOTA---10
 ## Situação-problema
 
 Você começou a trabalhar em um projeto de desenvolvimento de um site. O projeto será controlado utilizando **Git**.
