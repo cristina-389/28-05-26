@@ -14,8 +14,8 @@ git push -u origin aluno-joao
 
 **Disciplina:** Versionamento de Código
 **Professor:** Donald
-**Aluno(a):** __________________________________
-**Turma:** _______________ **Data:** ****/****/____
+**Aluno(a):** João Paulo da Silva de Oliveira
+**Turma:** 3°DS **Data:** 20/08/2026
 
 ## Situação-problema
 
@@ -29,7 +29,8 @@ Você criou uma pasta para o projeto e deseja começar a utilizar o Git nela.
 
 **Qual comando deve utilizar? O que ele faz?**
 
-Resposta: ______________________________________________________
+Resposta: git init
+Ele inicializa o Git na pasta. Cria a pasta oculta .git e começa a controlar as versões dos arquivos daquele projeto.
 
 ### 2. Verificando alterações
 
@@ -37,7 +38,8 @@ Você modificou alguns arquivos e quer verificar quais foram alterados antes de 
 
 **Qual comando deve utilizar? O que ele mostra?**
 
-Resposta: ______________________________________________________
+Resposta: git status
+Ele mostra o estado atual dos arquivos: quais foram modificados, quais estão prontos para "commit" e quais ainda não estão sendo monitorados pelo Git.
 
 ### 3. Criando uma nova área de trabalho
 
@@ -45,7 +47,8 @@ Você precisa desenvolver uma nova funcionalidade sem alterar diretamente a vers
 
 **Qual comando relacionado a branch pode ser utilizado? Para que serve uma branch?**
 
-Resposta: ______________________________________________________
+Resposta: git switch -c nome-da-branch
+Uma branch serve para criar uma "cópia" do projeto para trabalhar em uma nova funcionalidade sem bagunçar a versão principal main. Exemplo: git switch -c aluno-joao
 
 ### 4. Enviando alterações
 
@@ -53,7 +56,8 @@ Você terminou seu trabalho local e precisa enviar as alterações para o reposi
 
 **Qual comando deve utilizar? Explique sua função.**
 
-Resposta: ______________________________________________________
+Resposta: git push -u origin nome-da-branch
+Ele envia os commits que você fez localmente para o repositório remoto, como o GitHub. O -u origin define essa branch como padrão para os próximos pushes. Exemplo: git push -u origin aluno-joao
 
 ### 5. Recebendo alterações
 
@@ -61,7 +65,8 @@ Outro desenvolvedor atualizou o projeto no repositório remoto. Você precisa tr
 
 **Qual comando deve utilizar? Explique sua função.**
 
-Resposta: ______________________________________________________
+Resposta: git pull
+Ele busca as alterações mais novas que estão no repositório remoto e já junta/integra com os arquivos do seu computador.
 
 ## Desafio final
 
@@ -69,15 +74,15 @@ Complete o fluxo utilizando os comandos abaixo:
 
 **git init | git status | git branch | git pull | git push**
 
-a) Iniciar um repositório: ______________________
+a) Iniciar um repositório: git init
 
-b) Verificar o estado dos arquivos: ______________________
+b) Verificar o estado dos arquivos: git status
 
-c) Trabalhar com ramificações do projeto: ______________________
+c) Trabalhar com ramificações do projeto: git branch
 
-d) Buscar e integrar alterações do repositório remoto: ______________________
+d) Buscar e integrar alterações do repositório remoto: git pull
 
-e) Enviar alterações para o repositório remoto: ______________________
+e) Enviar alterações para o repositório remoto: git push
 
 ## Para pensar
 
@@ -85,7 +90,7 @@ Explique com suas palavras:
 
 **Qual é a diferença entre `git pull` e `git push`?**
 
----
-
----
+git push é para enviar suas alterações do computador para o repositório remoto.
+git pull é para baixar as alterações que outras pessoas fizeram no repositório remoto para o seu computador.
+Resumindo: push = sobe, pull = desce.
 
