@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site no GitHub</title>
+Aula de hoje 20/08/2026
+
+Versionamento 
+
+Professor Donald
 
     <style>
         body {
