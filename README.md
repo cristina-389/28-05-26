@@ -106,3 +106,31 @@ Um aluno está desenvolvendo um site em equipe. Ele criou uma pasta para o proje
 
 Explique, na ordem correta, quais comandos Git ele deve utilizar e qual é a função de cada comando nesse processo.
 
+Resposta: Para resolver a situação na ordem correta, o aluno deve usar os seguintes comandos Git:
+
+*1. `git init`*  
+*Função:* Inicia o controle de versão na pasta do projeto. Ele cria a pasta `.git` e passa a monitorar os arquivos para guardar o histórico de alterações.
+
+*2. `git status`*  
+*Função:* Verifica quais arquivos foram criados, modificados ou excluídos. Mostra o estado atual do projeto antes de salvar as alterações.
+
+*3. `git switch -c nova-pagina`*  
+*Função:* Cria uma nova branch chamada `nova-pagina` e já muda para ela.  
+Serve para trabalhar na nova funcionalidade sem mexer na branch principal `main`. Assim a equipe não quebra o site enquanto desenvolve.
+
+*4. `git pull`*  
+*Função:* Busca as atualizações mais recentes que os colegas fizeram no repositório remoto e já junta com o código local.  
+Importante rodar isso antes de começar a trabalhar e também antes de enviar, para evitar conflitos.
+
+*5. `git add .`*  
+*Função:* Adiciona todos os arquivos alterados para a "área de preparação". É o passo antes do commit.  
+Obs: poderia ser `git add nome-do-arquivo` também.
+
+*6. `git commit -m "Criação da nova página"`*  
+*Função:* Salva as alterações na branch local com uma mensagem explicando o que foi feito.
+
+*7. `git push -u origin nova-pagina`*  
+*Função:* Envia a branch `nova-pagina` com todos os commits para o GitHub. O `-u origin` define essa branch como padrão para os próximos envios.
+
+*Resumo da ordem:*  
+`git init` → `git status` → `git pull` → `git switch -c nova-pagina` → `git add` → `git commit` → `git push`
