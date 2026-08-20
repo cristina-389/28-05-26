@@ -85,11 +85,10 @@ Explique com suas palavras:
 
 **Qual é a diferença entre `git pull` e `git push`?**
 
----
 git push é pra enviar.
 Quando você termina algo na sua máquina e quer mandar pro repositório remoto, tipo GitHub. É você colocando suas alterações lá pra todo mundo acessar.git pull é pra receber.
 Quando outra pessoa já mandou coisa nova pro repositório. Você usa pull pra baixar essas atualizações e deixar seu projeto igual ao da nuvem.
----
+
 
 deve criar uma branch com seu primeiro nome e sobrenome, responder a atividade no README.md e enviar as alterações para sua própria branch. Não é permitido fazer alterações diretamente na branch main.
 
